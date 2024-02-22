@@ -40,6 +40,16 @@ header
     color: var(--secondary-color);
   }
 
+  main 
+  {
+  cursor: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hiclipart.com%2Ffree-transparent-background-png-clipart-ijcjx&psig=AOvVaw2vM4LtScBtCe7y8wiz5WN0&ust=1708668696920000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLCTyoelvoQDFQAAAAAdAAAAABAO") 8 8, pointer;
+  }
+
+  .hover-container 
+  {
+  cursor: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hiclipart.com%2Ffree-transparent-background-png-clipart-ijcjx&psig=AOvVaw2vM4LtScBtCe7y8wiz5WN0&ust=1708668696920000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLCTyoelvoQDFQAAAAAdAAAAABAO"), default;
+  }
+
 </style>
 
 <header>
