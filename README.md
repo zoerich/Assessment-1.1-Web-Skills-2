@@ -20,6 +20,25 @@
     --heading-color: rgb(255, 255, 255);
   }
 
+header
+  {
+    background-color: var(--bg-color);
+    color: var(--heading-color);
+    text-align: center;
+  }
+
+  main 
+  {
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+  }
+
+  button
+  {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
 
 </style>
 
@@ -30,15 +49,16 @@
 
 
 <main>
-    <img id="Image" src="http://www.outgrabe.net/bird00.jpg" alt="Pardalote">
+
+<img id="Image" src="http://www.outgrabe.net/bird00.jpg" alt="Pardalote">
     <p id="credit">Pardalote by fir0002 (CC-by-NC)</p>
     
-    <button onclick="birdName('Pardalote')">Pardalote</button>
+ <button onclick="birdName('Pardalote')">Pardalote</button>
     <button onclick="birdName('Purple Swamp Hen')">Purple Swamp Hen</button>
     <button onclick="birdName('White-headed Stilt')">White-headed Stilt</button>
     <button onclick="birdName('Inland Thornbill')">Inland Thornbill</button>
-    <button onclick="birdName('Rose Robin')">Rose Robin</button>
-    
+    <button onclick="birdName('Rose Robin')">Rose Robin</button>  
+
 </main>
 
 <script>
