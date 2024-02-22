@@ -4,10 +4,22 @@
 <style>
   :root 
   {
-
+    --primary-color: rgb(0, 0, 255);
+    --secondary-color: rgb(0, 255, 255);
+    --bg-color: rgb(255, 255, 255);
+    --font-color: rgb(128, 128, 128);
+    --heading-color: rgb(0, 0, 0);
   }
 
-  /* Formating and colour setting */
+  [data-theme="dark"] 
+  {
+    --primary-color: rgb(0, 128, 0);
+    --secondary-color: rgb(0, 255, 0);
+    --bg-color: rgb(0, 0, 0);
+    --font-color: rgb(128, 128, 128);
+    --heading-color: rgb(255, 255, 255);
+  }
+
 
 </style>
 
@@ -50,7 +62,7 @@
             birdImage.src = 'http://www.outgrabe.net/bird02.jpg';
             credit.textContent = 'White-headed Stilt by JJ Harrison (CC-by-SA)';
             break;
-        case 'Inland Thorbill':
+        case 'Inland Thornbill':
             birdImage.src = 'http://www.outgrabe.net/bird03.jpg';
             credit.textContent = 'Inland Thornbill by Peter Jacobs (CC-by-SA)';
             break;
