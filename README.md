@@ -18,10 +18,30 @@
 
 
 <main>
-    <button onclick="changeBird('Pardalote')">Pardalote</button>
-    <button onclick="changeBird('Purple Swamp Hen')">Purple Swamp Hen</button>
-    <button onclick="changeBird('White-headed Stilt')">White-headed Stilt</button>
-    <button onclick="changeBird('Inland Thornbill')">Inland Thornbill</button>
-    <button onclick="changeBird('Rose Robin')">Rose Robin</button>
-
+    <img id="Image" src="http://www.outgrabe.net/bird00.jpg" alt="Pardalote">
+    <p id="credit">Pardalote by fir0002 (CC-by-NC)</p>
+    
+    <button onclick="bird('Pardalote')">Pardalote</button>
+    <button onclick="bird('Purple Swamp Hen')">Purple Swamp Hen</button>
+    <button onclick="bird('White-headed Stilt')">White-headed Stilt</button>
+    <button onclick="bird('Inland Thornbill')">Inland Thornbill</button>
+    <button onclick="bird('Rose Robin')">Rose Robin</button>
+    
 </main>
+
+<script>
+    function birName(name)
+    {
+
+    }
+
+    switch (birdName)
+    {
+        case 'Pardalote':
+        case 'Purple Swamp Hen':
+        case 'White-headed Stilt':
+        case 'Inland Thorbill':
+        case 'Rose Robin':
+        default:
+    }
+</script>
