@@ -12,16 +12,16 @@
 </style>
 
 <header>
-  <h1>HEADER</h1>
+  <h1>Birds!</h1>
 </header>
 
 
+
 <main>
-
-
+    <button onclick="changeBird('Pardalote')">Pardalote</button>
+    <button onclick="changeBird('Purple Swamp Hen')">Purple Swamp Hen</button>
+    <button onclick="changeBird('White-headed Stilt')">White-headed Stilt</button>
+    <button onclick="changeBird('Inland Thornbill')">Inland Thornbill</button>
+    <button onclick="changeBird('Rose Robin')">Rose Robin</button>
 
 </main>
-
-<footer>
-  <p>©Copyright 2050 by nobody. All rights reversed.</p>
-</footer>
