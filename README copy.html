@@ -64,6 +64,8 @@ header
     <button onclick="birdName('Rose Robin')">Rose Robin</button>  
 
     <br />
+    <br />
+    <br />
 
 <button onclick="themeSelection()">Dark Theme</button>
 
@@ -110,10 +112,12 @@ header
         if (isDarkTheme) 
         {
             rootElement.setAttribute("data-theme", "light");
+            updateButtonText("Light Theme")
         } 
         else 
         {
             rootElement.setAttribute("data-theme", "dark");
+            updateButtonText("Dark Theme")
         }
 
         isDarkTheme = !isDarkTheme;

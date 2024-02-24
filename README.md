@@ -104,6 +104,12 @@ header
         }
     }
 
+    function updateButtonText(newText)
+    {
+        var themeButton = document.querySelector('button[data-theme]');
+        themeButton.textContent = newText;
+    }
+
     function themeSelection() 
     {
         var isDarkTheme = document.documentElement.getAttribute("data-theme") === "dark";
