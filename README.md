@@ -63,6 +63,8 @@ header
     <button onclick="birdName('Inland Thornbill')">Inland Thornbill</button>
     <button onclick="birdName('Rose Robin')">Rose Robin</button>  
 
+    <br />
+
 <button onclick="themeSelection()">Dark Theme</button>
 
 </main>
