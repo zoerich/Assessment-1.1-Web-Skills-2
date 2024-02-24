@@ -20,6 +20,11 @@
     --heading-color: rgb(255, 255, 255);
   }
 
+  body 
+  {
+    background-color: var(--bg-color);
+  }
+
 header
   {
     background-color: var(--bg-color);
