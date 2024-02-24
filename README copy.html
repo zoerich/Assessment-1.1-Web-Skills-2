@@ -97,18 +97,19 @@ header
 
     function themeSelection() 
     {
-        var isDarkTheme = false;
+        var isDarkTheme = document.documentElement.getAttribute("data-theme") === "dark";
         var rootElement = document.documentElement;
 
         if (isDarkTheme) 
         {
             rootElement.setAttribute("data-theme", "dark");
-            isDarkTheme = true;
         } 
         else 
         {
             rootElement.setAttribute("data-theme", "light");
         }
+
+        isDarkTheme = !isDarkTheme;
     }
 
 </script>

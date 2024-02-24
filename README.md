@@ -102,11 +102,11 @@ header
 
         if (isDarkTheme) 
         {
-            rootElement.setAttribute("data-theme", "dark");
+            rootElement.setAttribute("data-theme", "light");
         } 
         else 
         {
-            rootElement.setAttribute("data-theme", "light");
+            rootElement.setAttribute("data-theme", "dark");
         }
 
         isDarkTheme = !isDarkTheme;
