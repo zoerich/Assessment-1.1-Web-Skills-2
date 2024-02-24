@@ -49,14 +49,14 @@ header
 
 <main>
 
-<img id="Image" src="http://www.outgrabe.net/bird00.jpg" alt="Pardalote">
-    <p id="credit">Pardalote by fir0002 (CC-by-NC)</p>
+<img id="Image" src="http://www.outgrabe.net/bird00.jpg">
+<p id="credit">Pardalote by fir0002 (CC-by-NC)</p>
     
-<button onclick="birdName('Pardalote')">Pardalote</button>
-    <button onclick="birdName('Purple Swamp Hen')">Purple Swamp Hen</button>
-    <button onclick="birdName('White-headed Stilt')">White-headed Stilt</button>
-    <button onclick="birdName('Inland Thornbill')">Inland Thornbill</button>
-    <button onclick="birdName('Rose Robin')">Rose Robin</button>  
+<button onclick="birdName(Pardalote)">Pardalote</button>
+<button onclick="birdName(Purple Swamp Hen)">Purple Swamp Hen</button>
+<button onclick="birdName(White-headed Stilt)">White-headed Stilt</button>
+<button onclick="birdName(Inland Thornbill)">Inland Thornbill</button>
+<button onclick="birdName(Rose Robin)">Rose Robin</button>  
 
 <button onclick="themeSelection()">Dark Theme</button>
 
@@ -97,18 +97,14 @@ header
 
     function themeSelection() 
     {
-        var isDarkTheme = false;
+        var isDarkTheme = true;
         var rootElement = document.documentElement;
 
         if (isDarkTheme) 
         {
             rootElement.setAttribute("data-theme", "dark");
-            isDarkTheme = true;
+            isDarkTheme = false;
         } 
-        else 
-        {
-            rootElement.setAttribute("data-theme", "light");
-        }
     }
 
 </script>
