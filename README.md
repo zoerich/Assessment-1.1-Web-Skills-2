@@ -106,7 +106,7 @@ header
 
     function updateButtonText(newText)
     {
-        var themeButton = document.querySelector('button[data-theme]');
+        var themeButton = document.getElementsByTagName('button')[5];
         themeButton.textContent = newText;
     }
 
@@ -118,12 +118,12 @@ header
         if (isDarkTheme) 
         {
             rootElement.setAttribute("data-theme", "light");
-            updateButtonText("Light Theme")
+            updateButtonText("Dark Theme")
         } 
         else 
         {
             rootElement.setAttribute("data-theme", "dark");
-            updateButtonText("Dark Theme")
+            updateButtonText("Light Theme")
         }
 
         isDarkTheme = !isDarkTheme;

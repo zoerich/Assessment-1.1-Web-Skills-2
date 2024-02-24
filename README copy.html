@@ -104,6 +104,12 @@ header
         }
     }
 
+    function updateButtonText(newText)
+    {
+        var themeButton = document.getElementsByTagName('button')[5];
+        themeButton.textContent = newText;
+    }
+
     function themeSelection() 
     {
         var isDarkTheme = document.documentElement.getAttribute("data-theme") === "dark";
@@ -112,12 +118,12 @@ header
         if (isDarkTheme) 
         {
             rootElement.setAttribute("data-theme", "light");
-            updateButtonText("Light Theme")
+            updateButtonText("Dark Theme")
         } 
         else 
         {
             rootElement.setAttribute("data-theme", "dark");
-            updateButtonText("Dark Theme")
+            updateButtonText("Light Theme")
         }
 
         isDarkTheme = !isDarkTheme;
